@@ -1,0 +1,10 @@
+language = "python3"
+run = python3 scripts/main.py
+
+[agent]
+expertMode = false
+
+[unitTest]
+enabled = false
+
+[packager] ignorePackages = ["replit", "flask", "django"]
