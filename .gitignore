@@ -1,0 +1,43 @@
+# Corpus and Data
+corpus_seed/
+*.txt
+*.json
+*.csv
+
+# Logs and Runtime Artifacts
+*.log
+*.db
+*.sqlite
+__pycache__/
+*.pyc
+
+# Personal Use and Local Learning
+progressive_learning/state.json
+progressive_learning/user_feedback.json
+
+# Replit and IDE Specific
+.replit
+*.replit
+*.swp
+*.swo
+*.bak
+
+# Envirmonment and Dependency Files
+.env
+*.egg-info/
+*.lock
+*.cache/
+*.venv/
+venv/
+.envrc
+
+# Package Management
+node_modules/
+pip-wheel-metadata/
+dist/
+build/
+
+# Tests and Temp Files
+tests/__snapshots__/
+*.tmp
+*.test.json
