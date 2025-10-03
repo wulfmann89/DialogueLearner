@@ -1,5 +1,5 @@
 language = "python3"
-run = python3 scripts/main.py
+run = "python3 scripts/main.py"
 
 [agent]
 expertMode = false
@@ -7,4 +7,5 @@ expertMode = false
 [unitTest]
 enabled = false
 
-[packager] ignorePackages = ["replit", "flask", "django"]
+[packager] 
+ignorePackages = ["replit", "flask", "django"]
